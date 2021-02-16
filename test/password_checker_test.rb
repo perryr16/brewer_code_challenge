@@ -45,6 +45,8 @@ class PasswordCheckerTest < Minitest::Test
        "6-7 l": "hmqtlllnllnlmtqnn",
      }.to_json
 
+
+
     @pc = PasswordChecker.new(pw_hash)
   end
 
